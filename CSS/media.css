@@ -1,0 +1,40 @@
+@media (max-width: 575px) {
+
+}
+@media (min-width: 576px) {
+}
+#about .head p{
+    width: 80%;
+}
+@media (min-width: 768px) {
+    .home .carousel-item h1{
+        width: 50%;
+        font-size: 3.5rem;  
+    }
+    #about .head p{
+        width: 60%;
+    }
+    #team .ideas button{
+        width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .home .carousel-item h1{
+        width: 37%;
+        font-size: 4.5rem;  
+    }
+    #footer .sec1 .row .item1{
+        p{
+            width: 75% !important;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #footer .sec1 .row .item3{
+        width: 75% !important;
+    }
+}
+
+@media (min-width: 1400px) {}
